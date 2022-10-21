@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" href="icon.png">
+	<title>X-Cord Chat</title>
+	<script defer src="https://x-cord-server.sx9.repl.co/socket.io/socket.io.js"></script>
+	<script defer src="./script.js"></script>
+	<style>
+		body {
+			font-family: sans-serif;
+			color: white;
+			font-size: large;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: black;
+		}
+
+		button,
+		input {
+			border-top-left-radius: 5em;
+			border-bottom-left-radius: 5em;
+			border-top-right-radius: 5em;
+			border-bottom-right-radius: 5em;
+			border: none;
+			font-weight: bold;
+			font-family: sans-serif;
+		}
+
+		h1,
+		p {
+			margin: 0;
+			padding: 0;
+		}
+
+		label {
+			color: red;
+			text-align: center;
+		}
+
+		#info-container {
+			position: fixed;
+			padding-bottom: 30px;
+			top: 0;
+			max-width: 1200px;
+			width: 80%;
+			text-align: center;
+			background-color: black;
+		}
+
+		#message-container {
+			background-color: black;
+			width: 80%;
+			max-width: 1200px;
+		}
+
+		#message-container p {
+			font-size: larger;
+			color: white;
+			padding: 5px;
+		}
+
+		#send-container {
+			position: fixed;
+			padding-top: 30px;
+			bottom: 0;
+			max-width: 1200px;
+			width: 80%;
+			display: flex;
+			gap: 0.7em;
+		}
+
+		#message-input {
+			height: 2em;
+			flex-grow: 1;
+		}
+	</style>
+</head>
+
+<body>
+	<br>
+	<div id="info-container">
+		<h1>X-Cord Chat</h1>
+		<p>Imagine A Community...</p>
+	</div>
+	<div id="message-container">
+		<br><br><br>
+		<p>Welcome!</p>
+	</div>
+	<form id="send-container">
+		<input type="text" id="message-input" placeholder="Hello World!">
+		<button type="submit" id="send-button">Send!</button>
+	</form>
+</body>
+
+</html>
