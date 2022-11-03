@@ -1,0 +1,8 @@
+#! /bin/bash
+
+if test -f /usr/bin/neu; then
+	neu run
+else
+	sudo npm install -g @neutralinojs/neu
+	neu run
+fi

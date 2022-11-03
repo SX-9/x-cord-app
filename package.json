@@ -1,0 +1,22 @@
+{
+  "name": "x-cord",
+  "version": "1.0.0",
+  "description": "A Chat App Made For Linux",
+  "bin": "start",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SX-9/x-cord-app.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "sx9dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SX-9/x-cord-app/issues"
+  },
+  "homepage": "https://github.com/SX-9/x-cord-app#readme"
+}
