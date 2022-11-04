@@ -1,6 +1,6 @@
 {
   "name": "x-cord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Chat App Made For Linux",
   "bin": "start",
   "scripts": {
